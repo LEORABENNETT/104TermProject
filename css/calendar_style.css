@@ -1,4 +1,8 @@
- body {
+#picture {
+    width: 100%;
+}
+
+body {
    font-family: Arial, sans-serif;
    background-color: ivory;
    font-size: 1em;
