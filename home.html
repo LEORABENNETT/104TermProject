@@ -3,29 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>homepage</title>
-    <link href="website.css" rel="stylesheet"/>
+    <link href="home_style.css" rel="stylesheet"/>
+    <script src="countDown.js" defer></script>
 
 </head>
 <body>
-<nav>
-    <header><img src="picture.jpg" id="picture" alt="picture" height="400" width="800"</header>
-    <h1>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="calendar.html">Calendar</a></li>
-            <li><a href="zmanim.html">Zmanim</a></li>
-        </ul>
-    </h1>
-</nav>
-<section>
-    <h1>
-        Welcome to our website!
-        Here you can find the calendar of the month,
-        the Parshios, Haftorahs, significant days,
-        and the Zmanim.
-        We hope this helps!! Have a great day :)
-    </h1>
-</section>
+    <nav>
+        <header><img src="shabbospic.png" id="picture" alt="picture"</header>
+        <h1>
+            <a href="home.html">Home</a>
+            <a href="calendar.html">Calendar</a>
+            <a href="zmanim.html">Zmanim</a>
+        </h1>
+    </nav>
+    <div id="countdown">
+        <aside>Shabbos is coming!!!</aside>
+        <div><span id="days">7</span><br />Day(s)</div>
+        <div><span id="hrs">8</span><br />Hours</div>
+        <div><span id="mins">14</span><br />Minutes</div>
+        <div><span id="secs">48</span><br />Seconds</div>
+    </div>
+    <section>
+        <h1>
+            Welcome to our website!
+            Here you can find the calendar of the month,
+            the Parshios, Haftorahs, significant days,
+            and the Zmanim.
+            We hope this helps!! Have a great day :)
+        </h1>
+    </section>
+
+    </body>
 <footer>
     <aside><strong>Contact Us</strong></aside>
     <p>Contact us with any questions or suggestions.
@@ -42,5 +50,4 @@
     <p>Email: <a href="firstlastname@student.touro.edu">firstlastname@student.touro.edu</a></p>
 
 </footer>
-</body>
 </html>

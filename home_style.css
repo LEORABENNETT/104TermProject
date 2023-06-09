@@ -5,3 +5,7 @@ html {
     background-color: lightsteelblue;
 }
 
+#picture {
+    width: 100%;
+    height: 350px;
+}
