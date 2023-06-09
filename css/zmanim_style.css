@@ -13,7 +13,7 @@
 }
 
 table.times th, table.times td {
-    border: 1px solid gray;
+    border: 3px solid gray;
     padding: 6px;
     vertical-align: top;
 }
