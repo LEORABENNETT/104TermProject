@@ -12,6 +12,7 @@ function countDown() {
     var targetDay = 6;
     var daysUntilTargetDay = (targetDay - currentDate.getDay() + 7) % 7;
     var targetDate = new Date(currentDate.getTime() + (daysUntilTargetDay * 24 * 60 * 60 * 1000));
+    targetDate.setHours(0,0,0,0)
     var remainingTime = targetDate.getTime() - currentDate.getTime();
 
     var remainingDays = Math.floor(remainingTime / (24 * 60 * 60 * 1000));
